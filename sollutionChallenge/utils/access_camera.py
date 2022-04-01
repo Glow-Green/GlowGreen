@@ -2,9 +2,13 @@ from traceback import print_tb
 import cv2
 import time
 from sollutionChallenge.utils.ObjectDetectorOptions import *
-from sollutionChallenge.routes import detector
 import numpy as np
 from threading import Thread
+
+DETECTION_THRESHOLD = 0.1
+options = ObjectDetectorOptions(num_threads=4,
+                                score_threshold=DETECTION_THRESHOLD)
+detector = ObjectDetector(model_path="sollutionChallenge/assets/apple_lr_1.0.0_beta.tflite", options=options)
 
 class WebcamStream:
     def __init__(self, stream_id=0):
