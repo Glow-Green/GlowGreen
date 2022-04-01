@@ -1,12 +1,10 @@
 import os
 import secrets
-from PIL import Image
 from logging import debug
 from flask import request,render_template,url_for,redirect,request,abort,Response
 from sollutionChallenge import app
 from sollutionChallenge.utils import access_camera
 import numpy as np
-import pandas as pd
 
 @app.route('/')
 @app.route('/home')
