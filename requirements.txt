@@ -1,5 +1,5 @@
 Flask==2.0.1
-tflite_runtime==2.5.0.post1
+tflite_runtime
 tensorflow_gpu==2.3.1
 pandas==1.1.4
 opencv_python_headless==4.5.5.64
