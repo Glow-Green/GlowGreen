@@ -3,3 +3,4 @@ opencv_python_headless
 tflite_support
 numpy
 tensorflow-cpu
+gunicorn
