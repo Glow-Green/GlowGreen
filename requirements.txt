@@ -4,5 +4,4 @@ opencv_python_headless
 tflite_support
 numpy
 Pillow
-secrets
 tensorflow
