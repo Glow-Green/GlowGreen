@@ -7,7 +7,6 @@ import cv2
 
 import tensorflow as tf
 from tflite_support import metadata
-import tflite_runtime
 
 
 Interpreter = tf.lite.Interpreter
