@@ -1,6 +1,6 @@
+tflite_support
 Flask
 opencv_python_headless
-tflite_support
 numpy
 tensorflow-cpu
-Gunicorn
+gunicorn
