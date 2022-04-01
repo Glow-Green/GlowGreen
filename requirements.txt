@@ -1,7 +1,5 @@
 Flask
-pandas
 opencv_python_headless
 tflite_support
 numpy
-Pillow
 tensorflow
