@@ -2,4 +2,4 @@ Flask
 opencv_python_headless
 tflite_support
 numpy
-tensorflow-gpu
+tensorflow-cpu
