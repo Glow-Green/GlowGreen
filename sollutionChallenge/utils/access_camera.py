@@ -3,7 +3,6 @@ import cv2
 import time
 from sollutionChallenge.utils.ObjectDetectorOptions import *
 from run import detector
-from PIL import Image
 import numpy as np
 from threading import Thread
 
