@@ -2,7 +2,7 @@ from traceback import print_tb
 import cv2
 import time
 from sollutionChallenge.utils.ObjectDetectorOptions import *
-from run import detector
+from sollutionChallenge.routes import detector
 import numpy as np
 from threading import Thread
 
