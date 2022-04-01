@@ -103,10 +103,10 @@ class ObjectDetector:
     self._std = std
 
     # Load label list from metadata.
-    file_name = displayer.get_packed_associated_file_list()[0]
-    label_map_file = displayer.get_associated_file_buffer(file_name).decode()
-    label_list = list(filter(lambda x: len(x) > 0, label_map_file.splitlines()))
-    self._label_list = label_list
+#     file_name = displayer.get_packed_associated_file_list()[0]
+#     label_map_file = displayer.get_associated_file_buffer(file_name).decode()
+#     label_list = list(filter(lambda x: len(x) > 0, label_map_file.splitlines()))
+    self._label_list = ['rust', 'scab']#label_list
 
     # Initialize TFLite model.
     if options.enable_edgetpu:
