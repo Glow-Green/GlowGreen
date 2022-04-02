@@ -13,6 +13,16 @@ Interpreter = tf.lite.Interpreter
 load_delegate = tf.lite.experimental.load_delegate
 
 
+def load_model():
+  DETECTION_THRESHOLD = 0.1
+  options = ObjectDetectorOptions(num_threads=4,
+                                  score_threshold=DETECTION_THRESHOLD)
+  detector = ObjectDetector(model_path="sollutionChallenge/assets/apple_lr_1.0.0_beta.tflite", options=options)
+
+  return detector
+
+
+
 class ObjectDetectorOptions(NamedTuple):
   """A config to initialize an object detector."""
 
@@ -297,3 +307,4 @@ def visualize(
                 _FONT_SIZE, _TEXT_COLOR, _FONT_THICKNESS)
 
   return image
+

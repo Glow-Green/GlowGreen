@@ -2,7 +2,6 @@ from traceback import print_tb
 import cv2
 import time
 from sollutionChallenge.utils.ObjectDetectorOptions import *
-from run import detector
 import numpy as np
 from threading import Thread
 
@@ -112,4 +111,4 @@ def gen_frames():
 # cv2.destroyAllWindows()
 
 
-gen_frames()
+detector = load_model()
