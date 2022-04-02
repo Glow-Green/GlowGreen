@@ -1,5 +1,5 @@
 Flask
-opencv_python_headless
+opencv-contrib-python-headless
 tflite_support
 numpy
 tensorflow-cpu
