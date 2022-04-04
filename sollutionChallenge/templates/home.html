@@ -29,40 +29,42 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow">
-
-    <a class="navbar-brand mytitle" href="/home">GlowGreen</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/meetourteam">
-             Meet Our Team
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/ourmission">
-            Our Mission
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contactus">
-            Contact Us
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <section id="title">
-
-    <div class="container-fluid">
-
       <!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow">
+
+  <a class="navbar-brand mytitle" href="/home">
+    <img class = "logo" src="{{url_for('static', filename='images/gglogo3.jpg')}}" alt="brand">
+    GlowGreen</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="/meetourteam">
+          Meet Our Team
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/ourmission">
+          Our Mission
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contactus">
+          Contact Us
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="title">
+
+  <div class="container-fluid">
+
 
 
 
@@ -181,7 +183,7 @@
 
       <div class="col-lg-6 model_img shadow">
         <div>
-          <img class="model_img_pic " src="{{url_for('static', filename='images/rustlf.jpg')}}" alt="leaf">
+          <img class="model_img_pic shadow" src="{{url_for('static', filename='images/rustlf.png')}}" alt="leaf">
 
         </div>
       </div>
