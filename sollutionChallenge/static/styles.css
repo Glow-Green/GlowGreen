@@ -5,13 +5,18 @@
 }
 
 .mytitle{
-  padding: 0% 4% 0%;
+  padding: 0% 3% 0%;
+  width: 40%;
 }
 
 .descrip_txt{
   padding: 7% 5% 0%;
 }
 
+.logo{
+  width:3rem;
+  height:3rem;
+}
 
 
 .desc_img{
@@ -44,8 +49,6 @@ h2{
 
 body {
   font-family: 'Montserrat', sans-serif;
-
-
 }
 
 
@@ -157,7 +160,7 @@ background-color: #2F7D6D;
 .model_des{
   background-color: #15396A;
   text-align: center;
-  padding: 3rem;
+  padding: 4rem;
 }
 
 .model_des_title{
@@ -176,7 +179,18 @@ color: #F6BA4E;
 }
 .model_img{
     text-align: center;
-    background-color: #2F7D6D;
+    background-color: #F6BA4E;
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+
+.model_img_pic{
+
+  display: block;
+  width:65%;
+  height:65%;
+margin-left: auto;
+margin-right: auto;
 }
 .pricing-column{
   padding: 3% 2%;
@@ -205,7 +219,7 @@ color: #F6BA4E;
 h3{
   margin: 6%;
   font-size: 45px;
-  color: white;
+  color: #F6BA4E;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
@@ -227,11 +241,4 @@ h3{
 
 .footer-icon{
   padding: 0 1% 2%;
-}
-
-.model_img_pic{
-  padding-top: 10%;
-  display: block;
-margin-left: auto;
-margin-right: auto;
 }
