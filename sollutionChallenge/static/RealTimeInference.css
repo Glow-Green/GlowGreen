@@ -3,6 +3,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.logo{
+  width:3rem;
+  height:3rem;
+}
 .navbar {
   padding: 1rem 1rem;
   /* padding-top: 2%;
