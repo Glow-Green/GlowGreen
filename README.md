@@ -44,6 +44,7 @@ python run.py
  ```
 
 ## Future Scope
+We are planning to develop an android app using [Flutter](https://flutter.dev). We are also thinking to integrate our application on Live-inference Engine onto IoT devices such as drones, [Raspberry pi](https://www.raspberrypi.org/) etc for large forests where manual labour is a difficult task. We are also planning to extend our application to serve to larger audience from remote areas where good network is not available.
 
 ## Tech Stack Used
 
