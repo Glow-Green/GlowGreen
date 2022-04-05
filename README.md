@@ -36,10 +36,12 @@ pip install -r requirements.txt
 python run.py
 ```
 5. The response output should look like this:
-> INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
-> * Serving Flask app "sollutionChallenge" (lazy loading)
-> * Environment: production
-> * Running on localhost:5000 (Press CTRL+C to quit)
+```
+ INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+ * Serving Flask app "sollutionChallenge" (lazy loading)
+ * Environment: production
+ * Running on localhost:5000 (Press CTRL+C to quit)
+ ```
 
 ## Future Scope
 
