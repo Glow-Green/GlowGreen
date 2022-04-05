@@ -20,9 +20,14 @@ Over the years 2 billion hectares of Forest land on earth has degraded, affectin
 We recommend installing the requirements inside a [virtualenv](https://virtualenv.pypa.io/en/stable/) to prevent
 messing with your system packages.*
 
-**Installation**
-- To run our application on your local machine
-- 
+**Installation 🚀**
+1. Fork the Project
+2. Clone your forked repository on your local machine  
+3. To run our application on your local machine
+```(python)
+pip install -r requirements.txt
+```
+4. 
 
 ## Future Scope
 
