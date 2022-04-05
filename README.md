@@ -1,10 +1,10 @@
-## GlowGreen 
+## <img src="READMEassets/gglogo3.png" alt="GlowGreenlogo" width="30"/>GlowGreen 
 
 ## Understanding Problem Statement
 
 Over the years 2 billion hectares of Forest land on earth has degraded, affecting some 3.2 billion people and driving species to extinction and intensifying climate change. Recent studies have proved that disease infestations are one of the major factors behind the decaying of plants and forests. A major factor behind these infestations are invading alien species or parasites that harm our valuable forests. With the help of Data Science and Machine Learning, it is possible to identify the diseases so that appropriate measures can be taken at the correct instance of time to sustainably manage forests, combat desertification, halt and reverse land degradation, and halt biodiversity loss.
 
-![image](READMEassets/goal15.jpeg)
+<img src="READMEassets/goal15.jpeg" alt="goal" width="400"/>
 
 ## Motive
 
@@ -12,6 +12,7 @@ Existing methods of disease detection require environmentalists and forest-worke
 
 
 ## Prototype Insights
+![image](READMEassets/collage.jpeg)
 
 ## Run.py
 
