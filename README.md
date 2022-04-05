@@ -18,16 +18,28 @@ Over the years 2 billion hectares of Forest land on earth has degraded, affectin
 ## Quick start
 *Note:
 We recommend installing the requirements inside a [virtualenv](https://virtualenv.pypa.io/en/stable/) to prevent
-messing with your system packages.*
+messing with your system packages. Activate your environment if used before going on to the next steps.*
 
 **Installation 🚀**
 1. Fork the Project
-2. Clone your forked repository on your local machine  
-3. To run our application on your local machine
+2. Clone your forked repository on your host machine  
+```(bash)
+git clone <your-forked-repository.git>
+cd GlowGreen
+```
+3. To install the dependencies and packages on your host machine
 ```(python)
 pip install -r requirements.txt
 ```
-4. 
+4. That's it! Now test our application by running the following command on your host machine
+```(python)
+python run.py
+```
+5. The response output should look like this:
+> INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+> * Serving Flask app "sollutionChallenge" (lazy loading)
+> * Environment: production
+> * Running on localhost:5000 (Press CTRL+C to quit)
 
 ## Future Scope
 
