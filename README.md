@@ -1,5 +1,6 @@
 ## <img src="READMEassets/gglogo3.png" alt="GlowGreenlogo" width="30"/>GlowGreen 
 
+
 ## Understanding Problem Statement 📚
 
 Over the years 2 billion hectares of Forest land on earth has degraded, affecting some 3.2 billion people and driving species to extinction and intensifying climate change. Recent studies have proved that disease infestations are one of the major factors behind the decaying of plants and forests. A major factor behind these infestations are invading alien species or parasites that harm our valuable forests. With the help of Data Science and Machine Learning, it is possible to identify the diseases so that appropriate measures can be taken at the correct instance of time to sustainably manage forests, combat desertification, halt and reverse land degradation, and halt biodiversity loss.
@@ -44,7 +45,7 @@ python run.py
  ```
 
 ## Future Scope 🎯
-We are planning to develop an android app using [Flutter](https://flutter.dev). We are also thinking to integrate our application on Live-inference Engine onto IoT devices such as drones, [Raspberry pi](https://www.raspberrypi.org/) etc for large forests where manual labour is a difficult task. We are also planning to extend our application to serve to larger audience from remote areas where good network is not available.
+We are planning to develop an android app using [Flutter](https://flutter.dev). We are also thinking to integrate our application on Live-inference Engine onto IoT devices such as drones, [Raspberry pi](https://www.raspberrypi.org/) etc for large forests where manual labour is a difficult task. We are also planning to extend our application to serve to larger audience from remote areas where good network is not available by creating a low bandwidth consuming model.
 
 ## Tech Stack Used 👩‍💻
 
