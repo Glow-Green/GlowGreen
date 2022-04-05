@@ -8,14 +8,21 @@ Over the years 2 billion hectares of Forest land on earth has degraded, affectin
 
 ## Motive
 
-Existing methods of disease detection require environmentalists and forest-workers to solicit the help of government-funded agricultural experts to visually inspect and diagnose the infested leaf diseases. This suffers from being labor-intensive, low-supply and costly. As an added challenge, effective solutions for concerned people must perform well under significant constraints, since people may only have access to mobile-quality cameras with low-bandwidth.
+- Existing methods of disease detection require environmentalists and forest-workers to solicit the help of government-funded agricultural experts to visually inspect and diagnose the infested leaf diseases. This suffers from being labor-intensive, low-supply and costly. As an added challenge, effective solutions for concerned people must perform well under significant constraints, since people may only have access to mobile-quality cameras with low-bandwidth.
+- This project aims at helping our target customers who are forest and grove conservatives over large ares. Disease infestation from pests, fungus etc is a serious problem currently and needs to eliminated as soon as possible. Checking for fungal infections in vast farmlands can be very time consuming and needs a lot on manual labour. To help the community, we at GlowGreen present our application which will reduce the time required to check whether that part of the forest is diseased or not.
 
 
 ## Prototype Insights
 ![image](READMEassets/collage.jpeg)
 
-## Run.py
+## Quick start
+*Note:
+We recommend installing the requirements inside a [virtualenv](https://virtualenv.pypa.io/en/stable/) to prevent
+messing with your system packages.*
 
+**Installation**
+- To run our application on your local machine
+- 
 
 ## Future Scope
 
