@@ -48,11 +48,11 @@ python run.py
 We are planning to develop an android app using [Flutter](https://flutter.dev). We are also thinking to integrate our application on Live-inference Engine onto IoT devices such as drones, [Raspberry pi](https://www.raspberrypi.org/) etc for large forests where manual labour is a difficult task. We are also planning to extend our application to serve to larger audience from remote areas where good network is not available by creating a low bandwidth consuming model.
 
 ## Repository overview ⚡
-* `GlowGreen/sollutionChallenge/assets`- contains our Tflite trained model
-* `GlowGreen/sollutionChallenge/static` - contains all the javascript and css files
-* `GlowGreen/sollutionChallenge/static/images` - contains all the images used in this project
-* `GlowGreen/sollutionChallenge/templates` - html files which make up the website 
-* `GlowGreen/sollutionChallenge/utils` - utilities for object detection and accessing camera 
+* `sollutionChallenge/assets`- contains our Tflite trained model
+* `sollutionChallenge/static` - contains all the javascript and css files
+* `sollutionChallenge/static/images` - contains all the images used in this project
+* `sollutionChallenge/templates` - html files which make up the website 
+* `sollutionChallenge/utils` - utilities for object detection and accessing camera 
 
 ## Tech Stack Used 👩‍💻
 
